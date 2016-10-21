@@ -8,7 +8,7 @@
 
 * Assert the state of your Redis database in your tests
 * Makes performing multiple assertions easy (no need to inspect the results of `redis.multi()`)
-* The assertion interface matches the [node-redis](https://github.com/NodeRedis/node_redis) library
+* Assertion interface matches the [node-redis](https://github.com/NodeRedis/node_redis) library
 
 ## Installation
 
