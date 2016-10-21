@@ -1,0 +1,42 @@
+{
+  "name": "redis-assert",
+  "version": "0.0.1",
+  "description": "Easy assertions for Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmurphy/redis-assert.git"
+  },
+  "keywords": [
+    "redis",
+    "assert",
+    "mocha",
+    "bdd",
+    "tdd",
+    "test"
+  ],
+  "author": "robin@robinmurphy.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinjmurphy/redis-assert/issues"
+  },
+  "homepage": "https://github.com/robinjmurphy/redis-assert#readme",
+  "devDependencies": {
+    "async": "^2.1.2",
+    "eslint": "^3.7.1",
+    "eslint-config-iplayer-es6": "^3.0.1",
+    "eslint-plugin-mocha": "^4.6.0",
+    "fakeredis": "^1.0.3",
+    "mocha": "^3.1.2"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6"
+  },
+  "peerDependencies": {
+    "redis": "^2.6.2"
+  }
+}
