@@ -32,6 +32,7 @@ describe('redis-assert', () => {
           .get('foo', 'bar')
           .assert((err) => {
             assert.ok(err);
+            assert.equal(err.message, '\'baz\' == \'bar\'');
             cb();
           });
       }
