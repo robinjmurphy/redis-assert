@@ -1,5 +1,7 @@
 # redis-assert
 
+[![Build Status](https://travis-ci.org/robinjmurphy/redis-assert.svg?branch=master)](https://travis-ci.org/robinjmurphy/redis-assert)
+
 > Easy assertions for [Redis](http://redis.io/)
 
 ## Installation
